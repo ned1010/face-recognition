@@ -1,0 +1,43 @@
+======================================================================
+		FOR LINUX AND WINDOWS ONLY				
+======================================================================
+1) 	Note: virtual environment creation is optional, you can 	
+	start from step 3 and it won't create problems;		
+									
+	Create a Virtual Environment using conda: 			
+									
+	conda create -n <virtual_environment_name>			
+									
+2) 	Activate your newly created virtual environment:		
+									
+	conda activate <virtual_environment_name>			
+									
+3) 	Install all the packages mentioned in requirements.txt 	
+	using the command below (use pip3 if needed):			
+									
+	pip install -r requirements.txt				
+									
+4) 	Run make_dataset.py with the command:				
+									
+	python make_dataset.py -o dataset-[firstname-lastname]	
+									
+	eg: python make_dataset.py -o dataset-shweta-prasad		
+======================================================================
+									
+======================================================================
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Are you suffering from a MacOS? an M1 chip? this disease is incurable
+and you will have to be quarantined. :P 		
+Try to make it work, but if it is to no avail, reach out to us and we
+will give you other tasks related to the shared dataset so that you 
+can also claim your 2% of the grade for this assignimnet.
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+press c for capturing an image and q to quit
+
+
+
+
+References:
+1. https://towardsdatascience.com/face-detection-with-haar-cascade-727f68dafd08
+2.
